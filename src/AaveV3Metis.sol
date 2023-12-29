@@ -16,7 +16,7 @@ library AaveV3Metis {
 
   IAaveOracle internal constant ORACLE = IAaveOracle(0x38D36e85E47eA6ff0d18B0adF12E5fC8984A6f8e);
 
-  address internal constant PRICE_ORACLE_SENTINEL = 0xE2566C39db9559D318fB3a00D7B5992CBeeA8567;
+  address internal constant PRICE_ORACLE_SENTINEL = 0x2B5EA1604BAbb7B730120950Cb13951f3525828A;
 
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0x99411FC17Ad1B56f49719E3850B2CDcc0f9bBFd8);
@@ -24,7 +24,7 @@ library AaveV3Metis {
   IACLManager internal constant ACL_MANAGER =
     IACLManager(0xcDCb65fc657B701a5100a12eFB663978E7e8fFB8);
 
-  address internal constant ACL_ADMIN = 0x8EC77963068474a45016938Deb95E603Ca82a029;
+  address internal constant ACL_ADMIN = 0x6fD45D32375d5aDB8D76275A3932c740F03a8718;
 
   ICollector internal constant COLLECTOR = ICollector(0xB5b64c7E00374e766272f8B442Cd261412D4b118);
 
@@ -82,7 +82,7 @@ library AaveV3MetisAssets {
   address internal constant mUSDC_S_TOKEN = 0x81aC531A7CA8Bdaeb571d8d948e29481A35495C8;
   address internal constant mUSDC_ORACLE = 0x663855969c85F3BE415807250414Ca9129533a5f;
   address internal constant mUSDC_INTEREST_RATE_STRATEGY =
-    0x3B88f83B2b0444F14B6fc904040F648206F551fc;
+    0x3c8DF161A59F2a3ed4D40F073395d6a0f14290C0;
 
   address internal constant mUSDT_UNDERLYING = 0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC;
   address internal constant mUSDT_A_TOKEN = 0xd9fa75D14c26720d5ce7eE2530793a823e8f07b9;
@@ -90,7 +90,7 @@ library AaveV3MetisAssets {
   address internal constant mUSDT_S_TOKEN = 0xb4984c08984776074fB9BB78fFE24e9F1E97CD3F;
   address internal constant mUSDT_ORACLE = 0x51864b8948Aa5e35aace2BaDaF901D63418A3b9D;
   address internal constant mUSDT_INTEREST_RATE_STRATEGY =
-    0x5A1bdAc4eBa2A70D465ef4aDd2f68dBBae183454;
+    0x082612269926F85741E6c2B0447D000469880c1C;
 
   address internal constant WETH_UNDERLYING = 0x420000000000000000000000000000000000000A;
   address internal constant WETH_A_TOKEN = 0x8acAe35059C9aE27709028fF6689386a44c09f3a;

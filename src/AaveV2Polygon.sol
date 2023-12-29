@@ -22,7 +22,7 @@ library AaveV2Polygon {
   IAaveProtocolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IAaveProtocolDataProvider(0x7551b5D2763519d4e37e8B81929D336De671d46d);
 
-  address internal constant POOL_ADMIN = 0xdc9A35B16DB4e126cFeDC41322b3a36454B1F772;
+  address internal constant POOL_ADMIN = 0xDf7d0e6454DB638881302729F5ba99936EaAB233;
 
   address internal constant EMERGENCY_ADMIN = 0x1450F2898D6bA2710C98BE9CAF3041330eD5ae58;
 
@@ -64,7 +64,7 @@ library AaveV2PolygonAssets {
   address internal constant DAI_V_TOKEN = 0x75c4d1Fb84429023170086f06E682DcbBF537b7d;
   address internal constant DAI_S_TOKEN = 0x2238101B7014C279aaF6b408A284E49cDBd5DB55;
   address internal constant DAI_ORACLE = 0xFC539A559e170f848323e19dfD66007520510085;
-  address internal constant DAI_INTEREST_RATE_STRATEGY = 0x499e74993FFa39dd314782C4262a7443c31f8422;
+  address internal constant DAI_INTEREST_RATE_STRATEGY = 0x283Df7893eF10F729890017F57d76B8D78e18915;
 
   address internal constant USDC_UNDERLYING = 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174;
   address internal constant USDC_A_TOKEN = 0x1a13F4Ca1d028320A707D99520AbFefca3998b7F;
@@ -72,7 +72,7 @@ library AaveV2PolygonAssets {
   address internal constant USDC_S_TOKEN = 0xdeb05676dB0DB85cecafE8933c903466Bf20C572;
   address internal constant USDC_ORACLE = 0xefb7e6be8356cCc6827799B6A7348eE674A80EaE;
   address internal constant USDC_INTEREST_RATE_STRATEGY =
-    0xCE5870016D3cFa4e1c71Fb7c7EE8Cef67712a7a3;
+    0xc7008Df6B900b41CD528ceb23283Cf4BBCd0ac6E;
 
   address internal constant USDT_UNDERLYING = 0xc2132D05D31c914a87C6611C10748AEb04B58e8F;
   address internal constant USDT_A_TOKEN = 0x60D55F02A771d515e077c9C2403a1ef324885CeC;
@@ -80,7 +80,7 @@ library AaveV2PolygonAssets {
   address internal constant USDT_S_TOKEN = 0xe590cfca10e81FeD9B0e4496381f02256f5d2f61;
   address internal constant USDT_ORACLE = 0xf9d5AAC6E5572AEFa6bd64108ff86a222F69B64d;
   address internal constant USDT_INTEREST_RATE_STRATEGY =
-    0xAcBbD7E2e8C14DBdBB974B1Be2FB29f34C1E5048;
+    0x8D6dA015e69A84644BFc7455F871bDe2A7Fedf39;
 
   address internal constant WBTC_UNDERLYING = 0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6;
   address internal constant WBTC_A_TOKEN = 0x5c2ed810328349100A66B82b78a1791B101C9D61;

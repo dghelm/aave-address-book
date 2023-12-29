@@ -16,7 +16,7 @@ library AaveV3Base {
 
   IAaveOracle internal constant ORACLE = IAaveOracle(0x2Cc0Fc26eD4563A5ce5e8bdcfe1A2878676Ae156);
 
-  address internal constant PRICE_ORACLE_SENTINEL = 0xe34949A48cd2E6f5CD41753e449bd2d43993C9AC;
+  address internal constant PRICE_ORACLE_SENTINEL = 0x943AcD0c93d7a8Bee7dA5Fd0DC3d0028237074d6;
 
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0x2d8A3C5677189723C4cB8873CfC9C8976FDF38Ac);
@@ -24,7 +24,7 @@ library AaveV3Base {
   IACLManager internal constant ACL_MANAGER =
     IACLManager(0x43955b0899Ab7232E3a454cf84AedD22Ad46FD33);
 
-  address internal constant ACL_ADMIN = 0xA9F30e6ED4098e9439B2ac8aEA2d3fc26BcEbb45;
+  address internal constant ACL_ADMIN = 0x9390B1735def18560c509E2d0bc090E9d6BA257a;
 
   ICollector internal constant COLLECTOR = ICollector(0xBA9424d650A4F5c80a0dA641254d1AcCE2A37057);
 
@@ -84,5 +84,21 @@ library AaveV3BaseAssets {
   address internal constant USDbC_S_TOKEN = 0xBBaDd47fbaFa9dE717FE203e4707DEB893C64654;
   address internal constant USDbC_ORACLE = 0x7e860098F58bBFC8648a4311b374B1D669a2bc6B;
   address internal constant USDbC_INTEREST_RATE_STRATEGY =
-    0x8BAdED77793c340ab79848A09C7F5f7F16007Ab6;
+    0xDBea12F69D3Fcb4Be9FD14dd450AAe2B2a3d4de7;
+
+  address internal constant wstETH_UNDERLYING = 0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452;
+  address internal constant wstETH_A_TOKEN = 0x99CBC45ea5bb7eF3a5BC08FB1B7E56bB2442Ef0D;
+  address internal constant wstETH_V_TOKEN = 0x41A7C3f5904ad176dACbb1D99101F59ef0811DC1;
+  address internal constant wstETH_S_TOKEN = 0xfe742Fa2a84294E8316F05b17c05090Fc68B5105;
+  address internal constant wstETH_ORACLE = 0x945fD405773973d286De54E44649cc0d9e264F78;
+  address internal constant wstETH_INTEREST_RATE_STRATEGY =
+    0x2f51b00eC4912874DFDBd8dC3C8e390c21e77aF9;
+
+  address internal constant USDC_UNDERLYING = 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913;
+  address internal constant USDC_A_TOKEN = 0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB;
+  address internal constant USDC_V_TOKEN = 0x59dca05b6c26dbd64b5381374aAaC5CD05644C28;
+  address internal constant USDC_S_TOKEN = 0x03506214379aA86ad1176af71c260278cfa10B38;
+  address internal constant USDC_ORACLE = 0x7e860098F58bBFC8648a4311b374B1D669a2bc6B;
+  address internal constant USDC_INTEREST_RATE_STRATEGY =
+    0x50eC656Ba67885D0937b5f549f3104ea15E75588;
 }

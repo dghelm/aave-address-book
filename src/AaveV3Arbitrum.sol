@@ -16,7 +16,7 @@ library AaveV3Arbitrum {
 
   IAaveOracle internal constant ORACLE = IAaveOracle(0xb56c2F0B653B2e0b10C9b928C8580Ac5Df02C7C7);
 
-  address internal constant PRICE_ORACLE_SENTINEL = 0xF876d26041a4Fdc7A787d209DC3D2795dDc74f1e;
+  address internal constant PRICE_ORACLE_SENTINEL = 0x7A9ff54A6eE4a21223036890bB8c4ea2D62c686b;
 
   IPoolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IPoolDataProvider(0x6b4E260b765B3cA1514e618C0215A6B7839fF93e);
@@ -24,7 +24,7 @@ library AaveV3Arbitrum {
   IACLManager internal constant ACL_MANAGER =
     IACLManager(0xa72636CbcAa8F5FF95B2cc47F3CDEe83F3294a0B);
 
-  address internal constant ACL_ADMIN = 0x7d9103572bE58FfE99dc390E8246f02dcAe6f611;
+  address internal constant ACL_ADMIN = 0xFF1137243698CaA18EE364Cc966CF0e02A4e6327;
 
   ICollector internal constant COLLECTOR = ICollector(0x053D55f9B5AF8694c503EB288a1B7E552f590710);
 
@@ -36,8 +36,8 @@ library AaveV3Arbitrum {
   address internal constant DEFAULT_VARIABLE_DEBT_TOKEN_IMPL_REV_2 =
     0x5E76E98E0963EcDC6A065d1435F84065b7523f39;
 
-  address internal constant DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_2 =
-    0x0c2C95b24529664fE55D4437D7A31175CFE6c4f7;
+  address internal constant DEFAULT_STABLE_DEBT_TOKEN_IMPL_REV_3 =
+    0xCB7113D3d572613BbFCeCf80d1341cFFE2A92C00;
 
   address internal constant EMISSION_MANAGER = 0x048f2228D7Bf6776f99aB50cB1b1eaB4D1d4cA73;
 
@@ -76,7 +76,7 @@ library AaveV3ArbitrumAssets {
   address internal constant DAI_V_TOKEN = 0x8619d80FB0141ba7F184CbF22fd724116D9f7ffC;
   address internal constant DAI_S_TOKEN = 0xd94112B5B62d53C9402e7A60289c6810dEF1dC9B;
   address internal constant DAI_ORACLE = 0xc5C8E77B397E531B8EC06BFb0048328B30E9eCfB;
-  address internal constant DAI_INTEREST_RATE_STRATEGY = 0xA9F3C3caE095527061e6d270DBE163693e6fda9D;
+  address internal constant DAI_INTEREST_RATE_STRATEGY = 0xA901Bf68Bebde17ba382e499C3e9EbAe649DF276;
   address internal constant DAI_STATA_TOKEN = 0x426e8778bf7F54b0e4fc703DccA6f26a4E5B71dE;
 
   address internal constant LINK_UNDERLYING = 0xf97f4df75117a78c1A5a0DBb814Af92458539FB4;
@@ -94,7 +94,7 @@ library AaveV3ArbitrumAssets {
   address internal constant USDC_S_TOKEN = 0x307ffe186F84a3bc2613D1eA417A5737D69A7007;
   address internal constant USDC_ORACLE = 0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3;
   address internal constant USDC_INTEREST_RATE_STRATEGY =
-    0xd9d85499449f26d2A2c240defd75314f23920089;
+    0x642a8DAcC59b73491Dcaa3BCeF046D660901fCc1;
   address internal constant USDC_STATA_TOKEN = 0x3A301e7917689b8E8A19498b8A28fc912583490C;
 
   address internal constant WBTC_UNDERLYING = 0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f;
@@ -112,7 +112,7 @@ library AaveV3ArbitrumAssets {
   address internal constant WETH_S_TOKEN = 0xD8Ad37849950903571df17049516a5CD4cbE55F6;
   address internal constant WETH_ORACLE = 0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612;
   address internal constant WETH_INTEREST_RATE_STRATEGY =
-    0x27eFE5db315b71753b2a38ED3d5dd7E9362ba93F;
+    0x9a158802cD924747EF336cA3F9DE3bdb60Cf43D3;
   address internal constant WETH_STATA_TOKEN = 0x18468b6eBA332285c6d9BB03Fe7fb52e108c4596;
 
   address internal constant USDT_UNDERLYING = 0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9;
@@ -121,7 +121,7 @@ library AaveV3ArbitrumAssets {
   address internal constant USDT_S_TOKEN = 0x70eFfc565DB6EEf7B927610155602d31b670e802;
   address internal constant USDT_ORACLE = 0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7;
   address internal constant USDT_INTEREST_RATE_STRATEGY =
-    0xA9F3C3caE095527061e6d270DBE163693e6fda9D;
+    0xA901Bf68Bebde17ba382e499C3e9EbAe649DF276;
   address internal constant USDT_STATA_TOKEN = 0x8B5541B773DD781852940490b0c3dC1a8CDb6A87;
 
   address internal constant AAVE_UNDERLYING = 0xba5DdD1f9d7F570dc94a51479a000E3BCE967196;
@@ -156,7 +156,7 @@ library AaveV3ArbitrumAssets {
   address internal constant MAI_V_TOKEN = 0x34e2eD44EF7466D5f9E0b782B5c08b57475e7907;
   address internal constant MAI_S_TOKEN = 0x78246294a4c6fBf614Ed73CcC9F8b875ca8eE841;
   address internal constant MAI_ORACLE = 0x59644ec622243878d1464A9504F9e9a31294128a;
-  address internal constant MAI_INTEREST_RATE_STRATEGY = 0xA6459195d60A797D278f58Ffbd2BA62Fb3F7FA1E;
+  address internal constant MAI_INTEREST_RATE_STRATEGY = 0x588b62C84533232E3A881e096E5D639Fa754F093;
   address internal constant MAI_STATA_TOKEN = 0x5F756955Fc1a43D658F4291Cf69Af16077b5326C;
 
   address internal constant rETH_UNDERLYING = 0xEC70Dcb4A1EFa46b8F2D97C310C9c4790ba5ffA8;
@@ -174,7 +174,7 @@ library AaveV3ArbitrumAssets {
   address internal constant LUSD_S_TOKEN = 0xa5e408678469d23efDB7694b1B0A85BB0669e8bd;
   address internal constant LUSD_ORACLE = 0x0411D28c94d85A36bC72Cb0f875dfA8371D8fFfF;
   address internal constant LUSD_INTEREST_RATE_STRATEGY =
-    0x07Fa3744FeC271F80c2EA97679823F65c13CCDf4;
+    0xaDbdb3d6B51151e4CDF32e4050B6F03D2bfB6477;
   address internal constant LUSD_STATA_TOKEN = 0x8Ef77cdeEf0e0816fa75FA3E30BD20B9bE704fa2;
 
   address internal constant USDCn_UNDERLYING = 0xaf88d065e77c8cC2239327C5EDb3A432268e5831;
@@ -183,7 +183,7 @@ library AaveV3ArbitrumAssets {
   address internal constant USDCn_S_TOKEN = 0xDC1fad70953Bb3918592b6fCc374fe05F5811B6a;
   address internal constant USDCn_ORACLE = 0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3;
   address internal constant USDCn_INTEREST_RATE_STRATEGY =
-    0xf6733B9842883BFE0e0a940eA2F572676af31bde;
+    0x44CaDF6E49895640D9De85ac01d97D44429Ad0A4;
   address internal constant USDCn_STATA_TOKEN = 0xbdE67e089886EC0E615D6f054BC6f746189A3d56;
 
   address internal constant FRAX_UNDERLYING = 0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F;
@@ -192,7 +192,7 @@ library AaveV3ArbitrumAssets {
   address internal constant FRAX_S_TOKEN = 0x8a9FdE6925a839F6B1932d16B36aC026F8d3FbdB;
   address internal constant FRAX_ORACLE = 0x0809E3d38d1B4214958faf06D8b1B1a2b73f2ab8;
   address internal constant FRAX_INTEREST_RATE_STRATEGY =
-    0xA9F3C3caE095527061e6d270DBE163693e6fda9D;
+    0xA901Bf68Bebde17ba382e499C3e9EbAe649DF276;
   address internal constant FRAX_STATA_TOKEN = 0x22739C6915ef610412673A086e683F1EaA1A1C05;
 
   address internal constant ARB_UNDERLYING = 0x912CE59144191C1204E64559FE8253a0e49E6548;

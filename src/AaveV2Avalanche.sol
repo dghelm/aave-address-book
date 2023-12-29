@@ -22,7 +22,7 @@ library AaveV2Avalanche {
   IAaveProtocolDataProvider internal constant AAVE_PROTOCOL_DATA_PROVIDER =
     IAaveProtocolDataProvider(0x65285E9dfab318f57051ab2b139ccCf232945451);
 
-  address internal constant POOL_ADMIN = 0xa35b76E4935449E33C56aB24b23fcd3246f13470;
+  address internal constant POOL_ADMIN = 0x3C06dce358add17aAf230f2234bCCC4afd50d090;
 
   address internal constant EMERGENCY_ADMIN = 0xa35b76E4935449E33C56aB24b23fcd3246f13470;
 
@@ -78,7 +78,7 @@ library AaveV2AvalancheAssets {
   address internal constant DAIe_S_TOKEN = 0x3676E4EE689D527dDb89812B63fAD0B7501772B3;
   address internal constant DAIe_ORACLE = 0x51D7180edA2260cc4F6e4EebB82FEF5c3c2B8300;
   address internal constant DAIe_INTEREST_RATE_STRATEGY =
-    0xD96B68638bdbb625A49F5BAC0dC3B66764569d30;
+    0x116EFD5652A9993A5984055B2da7eb9acfB48Fd2;
 
   address internal constant USDTe_UNDERLYING = 0xc7198437980c041c805A1EDcbA50c1Ce5db95118;
   address internal constant USDTe_A_TOKEN = 0x532E6537FEA298397212F09A61e03311686f548e;
@@ -86,7 +86,7 @@ library AaveV2AvalancheAssets {
   address internal constant USDTe_S_TOKEN = 0x9c7B81A867499B7387ed05017a13d4172a0c17bF;
   address internal constant USDTe_ORACLE = 0xEBE676ee90Fe1112671f19b6B7459bC678B67e8a;
   address internal constant USDTe_INTEREST_RATE_STRATEGY =
-    0xD96B68638bdbb625A49F5BAC0dC3B66764569d30;
+    0x116EFD5652A9993A5984055B2da7eb9acfB48Fd2;
 
   address internal constant USDCe_UNDERLYING = 0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664;
   address internal constant USDCe_A_TOKEN = 0x46A51127C3ce23fb7AB1DE06226147F446e4a857;
@@ -94,7 +94,7 @@ library AaveV2AvalancheAssets {
   address internal constant USDCe_S_TOKEN = 0x5B14679135dbE8B02015ec3Ca4924a12E4C6C85a;
   address internal constant USDCe_ORACLE = 0xF096872672F44d6EBA71458D74fe67F9a77a23B9;
   address internal constant USDCe_INTEREST_RATE_STRATEGY =
-    0xD96B68638bdbb625A49F5BAC0dC3B66764569d30;
+    0x116EFD5652A9993A5984055B2da7eb9acfB48Fd2;
 
   address internal constant AAVEe_UNDERLYING = 0x63a72806098Bd3D9520cC43356dD78afe5D386D9;
   address internal constant AAVEe_A_TOKEN = 0xD45B7c061016102f9FA220502908f2c0f1add1D7;
